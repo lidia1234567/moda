@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    
+    
+    border-radius: 28px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+input, textarea  {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+    color: #283629;
+    outline: none;
+    
+
+}
+
+.btn {
+    font-size: 16px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 25px;
+    background-color: blueviolet;
+    box-shadow:  0 0 28px rgba(25, 254, 0, 0.4);
+}
+
+/* Estilos para fondo*/
+body{
+    background-color: pink;
+
+}
